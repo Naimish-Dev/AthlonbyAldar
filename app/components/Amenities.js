@@ -148,21 +148,6 @@ const Amenities = () => {
         <div className="shadow-lg">
           <div className="flex gap-4 p-4">
             <div className="text-white bg-black p-2 h-fit flex items-center justify-center">
-              <FaRunning />
-            </div>
-            <div>
-              <h3 className="text-xl  font-semibold">Jogging Trails</h3>
-              <p className="text-sm">
-                It improves your cardiovascular fitness and decreases your risk
-                of heart attack.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="shadow-lg">
-          <div className="flex gap-4 p-4">
-            <div className="text-white bg-black p-2 h-fit flex items-center justify-center">
               <GiAnchor />
             </div>
             <div>
