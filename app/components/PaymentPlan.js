@@ -1,4 +1,5 @@
 import React from "react";
+import { FaHome } from "react-icons/fa";
 
 export const PaymentPlan = () => {
   return (
@@ -12,7 +13,7 @@ export const PaymentPlan = () => {
             <div className="shadow-lg bg-white">
               <div className="flex gap-4 p-4">
                 <div className="text-white bg-black p-2 h-fit flex items-center justify-center">
-                  {/* <MdVerified /> */}
+                  <FaHome />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">
@@ -30,7 +31,7 @@ export const PaymentPlan = () => {
             <div className="shadow-lg  bg-white">
               <div className="flex gap-4 p-4">
                 <div className="text-white bg-black p-2 h-fit flex items-center justify-center">
-                  {/* <GrLineChart /> */}
+                  <FaHome />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">5% On Booking Date</h3>
@@ -45,7 +46,7 @@ export const PaymentPlan = () => {
             <div className="shadow-lg bg-white">
               <div className="flex gap-4 p-4">
                 <div className="text-white bg-black p-2 h-fit flex items-center justify-center">
-                  {/* <FaLocationDot /> */}
+                  <FaHome />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">
@@ -63,7 +64,7 @@ export const PaymentPlan = () => {
             <div className="shadow-lg bg-white">
               <div className="flex gap-4 p-4">
                 <div className="text-white bg-black p-2 h-fit flex items-center justify-center">
-                  {/* <FaGlobe /> */}
+                  <FaHome />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">40% on hand over</h3>
