@@ -6,8 +6,8 @@ import { Footer } from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Six Senses Residences",
-  description: "six senses residences dubai marina",
+  title: "Athlon By Aldar",
+  description: "Athlon By Aldar residences dubai marina",
 };
 
 export default function RootLayout({ children }) {
