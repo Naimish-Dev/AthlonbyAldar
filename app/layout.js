@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Conact from "./components/Conact";
 import { Footer } from "./components/Footer";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +16,30 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="favicon.ico" />
+        <Head>
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=AW-16551601483"
+          ></script>
+          <script>
+            dangerouslySetInnerHTML=
+            {{
+              __html: ` window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16551601483');
+     `,
+            }}
+          </script>
+          {/* <script>
+            dangerouslySetInnerHTML=
+            {{
+              __html: `
+gtag('event', 'conversion', { 'send_to': 'AW-16542161149/QTRFCMjGnqoZEP2x9c89', 'value': 1.0, 'currency': 'AED' })     `,
+            }}
+          </script> */}
+        </Head>
       </head>
       <Conact />
       <body className={inter.className}>{children}</body>
