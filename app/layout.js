@@ -32,13 +32,6 @@ export default function RootLayout({ children }) {
      `,
             }}
           </script>
-          {/* <script>
-            dangerouslySetInnerHTML=
-            {{
-              __html: `
-gtag('event', 'conversion', { 'send_to': 'AW-16542161149/QTRFCMjGnqoZEP2x9c89', 'value': 1.0, 'currency': 'AED' })     `,
-            }}
-          </script> */}
         </Head>
       </head>
       <Conact />
