@@ -23,12 +23,14 @@ export default function RootLayout({ children }) {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-16551601483');
-
+window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16551601483');
         `,
+          }}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+gtag('event', 'conversion', { 'send_to': 'AW-16551601483/F949CJiOq6wZEMvKtdQ9', 'value': 10.0, 'currency': 'AED' });        `,
           }}
         />
       </head>
