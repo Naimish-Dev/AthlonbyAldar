@@ -57,15 +57,15 @@ export const Hero = () => {
     setIsSidebarActive(false);
   };
 
-  useEffect(() => {
-    const token = sessionStorage.getItem("Token");
-
-    setTimeout(() => {
-      if (!token) {
-        setIsModel(true);
-      }
-    }, 1000);
-  }, []);
+//   useEffect(() => {
+//     const token = sessionStorage.getItem("Token");
+// 
+//     setTimeout(() => {
+//       if (!token) {
+//         setIsModel(true);
+//       }
+//     }, 1000);
+//   }, []);
 
   return (
     <div className="relative">
