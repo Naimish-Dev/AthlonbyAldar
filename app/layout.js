@@ -19,20 +19,13 @@ export default function RootLayout({ children }) {
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-16551601483"
         ></script>
-
         <script
           dangerouslySetInnerHTML={{
             __html: `
-window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16551601483');
-        `,
+window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16551601483');         `,
           }}
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-gtag('event', 'conversion', { 'send_to': 'AW-16551601483/F949CJiOq6wZEMvKtdQ9', 'value': 10.0, 'currency': 'AED' });        `,
-          }}
-        />
+        <script>gtag('config', 'AW-16551601483');</script>
       </head>
       <Conact />
       <body className={inter.className}>{children}</body>
