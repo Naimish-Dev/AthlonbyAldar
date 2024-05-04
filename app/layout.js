@@ -27,10 +27,10 @@ export default function RootLayout({ children }) {
 window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16553376594');         `,
           }}
         />
-        <Script>{`gtag('config', 'AW-16553376594')`}</Script>
         <Script>
           {`gtag('event', 'conversion', { 'send_to': 'AW-16553376594/13HxCO2n3awZENL2odU9', 'value': 10.0, 'currency': 'AED' })});`}
         </Script>
+        <Script>{`gtag('config', 'AW-16553376594')`}</Script>
       </head>
       {/* <GoogleAnalytics gaId="AW-16553376594" /> */}
       <Conact />
