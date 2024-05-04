@@ -28,6 +28,13 @@ window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(argume
           }}
         />
         <Script>gtag('config', 'AW-16551601483');</Script> */}
+        <Script>
+          {`     gtag('event', 'conversion', {
+      'send_to': 'AW-16553376594/YqWRCMmG1qwZENL2odU9',
+      'value': 1.0,
+      'currency': 'AED'
+  });`}
+        </Script>
       </head>
       <GoogleAnalytics gaId="AW-16553376594" />
       <Conact />
