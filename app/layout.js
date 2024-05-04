@@ -29,8 +29,8 @@ window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(argume
         />
         <Script>gtag('config', 'AW-16551601483');</Script> */}
       </head>
-      <Conact />
       <GoogleAnalytics gaId="AW-16553376594" />
+      <Conact />
       <body className={inter.className}>{children}</body>
       <Footer />
     </html>
